@@ -43,12 +43,12 @@ TEMA: MADERA QUI&#x00C9;N 2
 	--strLinkColor:      #0000ff;
 	--strVLinkColor:     #ff00ff;
 	
-	--strNavBarColor:    #80ff80;
-	--strNavLightColor:  #bfffbf;
-	--strNavShadeColor:  #407f40;
+	--strNavBarColor:    #c0c0c0;
+	--strNavLightColor:  #dfdfdf;
+	--strNavShadeColor:  #606060;
 	--strNavTextColor:   #000000;
 	
-	--strPageBGColor:    #8080ff;
+	--strPageBGColor:    #c0c0c0;
 	--strExBGColor:      #dddddd;
 }
 
@@ -1546,7 +1546,7 @@ function TimesUp() {
 
 //CODE FOR HANDLING TIMER
 //Timer code
-var Seconds = 180;
+var Seconds = 90;
 var Interval = null;
 
 function StartTimer(){
@@ -1595,11 +1595,15 @@ function DownTime(){
 <div class="NavButtonBar" id="TopNavBar">
 
 
+<button class="NavButton" onclick="history.back(); return false;">&lt;=</button>
+
 
 
 <button class="NavButton" onclick="location='index.htm'; return false;"> Index </button>
 
 
+
+<button class="NavButton" onclick="location='madera_quien3.htm'; return false;">=&gt;</button>
 
 
 </div>
